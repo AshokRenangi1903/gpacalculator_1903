@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: darkblue;
+}
+
+
+.gpa .main {
+    /* background-color: grey; */
+    width: 36%;
+    align-items: center;
+    /* border: 2px solid darkblue; */
+    border-radius: 18px;
+    box-shadow: 5px 5px 20px #aaaaaa;
+}
+
+.gpa .main .heading {
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-left: 25px;
+    color: darkblue;
+    font-weight: bolder;
+
+}
+
+.gpa .main .subj {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.submit {
+    color: white;
+    background: darkblue;
+    width: 25%;
+    padding: 10px;
+    font-weight: bold;
+    margin: 6px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 10px 5px 10px #aaaaaa;
+
+}
+
+.space {
+    height: 27px
+}
